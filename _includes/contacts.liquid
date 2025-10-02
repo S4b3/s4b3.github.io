@@ -1,0 +1,73 @@
+<style>
+  .contact-container {
+    max-width: 600px;
+    margin: 4rem auto 2rem auto; /* top, right/left, bottom */
+    padding: 1.5rem;
+    background-color: var(--global-bg-color, #1a1a1a);
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+  }
+
+  .contact-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  .contact-list i {
+    font-size: 1.3rem;
+    margin-right: 0.75rem;
+    color: var(--global-theme-color, #1e90ff);
+    min-width: 24px;
+    text-align: center;
+  }
+
+  .contact-list a {
+    color: var(--global-text-color, #e0e0e0);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .contact-list a:hover {
+    color: var(--global-theme-color, #1e90ff);
+    text-decoration: underline;
+  }
+</style>
+
+
+<div class="contact-container">
+  <h2>Get in touch</h2>
+  <ul class="contact-list">
+    {% if site.data.socials.email %}
+      <li>
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:{{ site.data.socials.email | encode_email }}">
+          {{ site.data.socials.email }}
+        </a>
+      </li>
+    {% endif %}
+
+    {% if site.data.socials.linkedin_username %}
+      <li>
+        <i class="fa-brands fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}">
+          linkedin.com/in/{{ site.data.socials.linkedin_username }}
+        </a>
+      </li>
+    {% endif %}
+  </ul>
+</div>
