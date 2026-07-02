@@ -6,7 +6,7 @@
       year: "2023 - present"
       description:
         - "Admitted to the 39th cycle with highest-ranking placement in Computer Science."
-        - "Specializing in Computer Vision and Embodied AI, Socially Aware Robotics, Human-Robot Interaction, Deep Reinforcement Learning."
+        - "Specializing in Computer Vision and Embodied AI, Socially Aware Robotics, Human-Robot Interaction, and Deep Reinforcement Learning."
     - title: "M.Sc. in Data Science"
       institution: "Sapienza University of Rome, Italy"
       year: "2021 - 2023"
@@ -21,6 +21,8 @@
 - title: Publications
   type: list
   contents:
+    - "Describe-Then-Act: Proactive Agent Steering via Distilled Language-Action World Models, M. Pappa, L. Romani, V. Sacco et al., ECCV 2026."
+    - "Robots Ask the Way: Communication-Enabled Social Navigation, V. Sacco, L. Scofano, I. Spinelli, F. Galasso, IROS 2026."
     - "Following the Human Thread in Social Navigation, L. Scofano, V. Sacco et al., ICLR 2025 (Spotlight)."
 
 - title: Research Experience
@@ -41,6 +43,12 @@
 - title: Industry Experience
   type: time_table
   contents:
+    - title: "Machine Learning Engineer"
+      institution: "WarmWind AG, Jena, Germany"
+      year: "May 2026 - present"
+      description:
+        - "Working on applied machine learning and embodied AI systems in collaboration with the WarmWind AG team."
+        - "Bridging academic research in robotics and machine learning with production-oriented engineering."
     - title: "Software Engineer & Tutor"
       institution: "Starting Finance"
       year: "2020 - Dec 2021"
@@ -64,6 +72,6 @@
 - title: Skills
   type: list
   contents:
-    - "Data Science: Python, PyTorch, TensorFlow, Deep Reinforcement Learning, SQL, NoSQL."
-    - "Software Development: Dart, Flutter, Javascript, React.js."
+    - "Machine Learning: Python, PyTorch, TensorFlow, Deep Reinforcement Learning, computer vision, embodied AI."
+    - "Software Development: Dart, Flutter, Javascript, React.js, cloud/serverless integrations."
     - "Language: Proficient English. Certificate: Cambridge FCE (B2), Ref. 153IT3030032."
